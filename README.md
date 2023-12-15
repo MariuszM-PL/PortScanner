@@ -2,7 +2,7 @@
 
 This PowerShell script allows you to check the availability of ports on a specified device in the network. The script provides various scanning options, allowing you to scan a single port, all ports in a range, or the full range of ports.
 
-## Table of Contents
+## Table of Contents ⚙️
 
 - [Usage](#usage)
 - [Options](#options)
@@ -10,7 +10,7 @@ This PowerShell script allows you to check the availability of ports on a specif
 - [Contributing](#contributing)
 - [License](#license)
 
-## Usage
+## Usage 🖱️
 
 1. Clone the repository:
 
@@ -23,14 +23,14 @@ This PowerShell script allows you to check the availability of ports on a specif
    ```bash
    .\PortScanner.ps1
 
-## Options
+## Options 📙
 The script provides the following scanning options:
 
 Scan (Single Port): Scan a specific port on the target device.
 Fullscan (1-65535): Scan all ports in the range from 1 to 65535.
 Range (xxxxx-xxxxx): Scan a specified range of ports.
 
-## File Descriptions
+## File Descriptions 📜
 PortScanner.ps1: The main PowerShell script for port scanning.
 Ports.txt: The file where the raw output of port scanning is saved.
 OpenPorts.txt: The file where information about open ports is saved.
